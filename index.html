@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- Google icons -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <!-- Font awesome script -->
+    <script
+      src="https://kit.fontawesome.com/5bbe2a999b.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Construction</title>
+  </head>
+  <body>
+    <!-- Navigation bar -->
+    <header class="header">
+      <nav class="container lg-flex">
+        <div class="brand">
+          <a href="#">
+            <img src="./images/logo.png" alt="" />
+          </a>
+          <label for="mobile-toggle" class="mobile-toggle">
+            <span class="material-symbols-outlined"> menu </span>
+          </label>
+        </div>
+        <!-- Input -checkbox is sitting next to the ul here to toggle the ul using css -->
+        <input type="checkbox" id="mobile-toggle" hidden />
+        <ul class="nav-links">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About us</a></li>
+          <li><a href="#service">Service</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#contact">Contact us</a></li>
+          <li class="contact-action">
+            <span><i class="fa-solid fa-phone"></i></span>
+            <div class="contact-details">
+              <p>contact us today!</p>
+              <p>777.123.4567</p>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!--End Navigation bar -->
+    <main>
+      <!-- Start Hero section -->
+      <section class="hero" id="hero">
+        <div class="container">
+          <h2>
+            Welcome to
+            <span class="uppercase">construction</span>
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+            dapibus ex sed eros molestie blandit. Fusce sem enim, commodo sit
+            amet diam pharetra, aliquet pulvinar purus.
+          </p>
+          <button class="btn btn-white uppercase fw-600">contact us</button>
+        </div>
+      </section>
+
+      <!-- Start About section -->
+      <section class="about-section" id="about">
+        <div class="container-fluid">
+          <div class="page-heading">
+            <h1 class="uppercase">About <span>our company</span></h1>
+            <img src="./images/underline.png" alt="underline" />
+          </div>
+          <div class="about-flex">
+            <div class="info">
+              <h3>Curabitur congue egestas dapibus.</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non
+                libero consectetur, blandit mauris eget, imperdiet nisl. Etiam
+                commodo ex nec erat tempor varius. Nunc rutrum pretium nunc in
+                malesuada. Curabitur mollis urna ac sapien vulputate, ut congue
+                sapien vehicula. Cum sociis natoque penatibus et magnis dis
+                parturient montes, nascetur ridiculus mus. Nam et suscipit dui.
+              </p>
+              <div class="info-list">
+                <div class="list">
+                  <!-- List one -->
+                  <div class="list-item">
+                    <div class="list-details">
+                      <i class="fa fa-paint-brush" aria-hidden="true"></i>
+                      <div>
+                        <p class="uppercase">renovation</p>
+                        <p>
+                          Lorem ipsum dolor sit piscing sed diam nonmy end .
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- List two -->
+                  <div class="list-item">
+                    <div class="list-details">
+                      <i class="fa fa-picture-o" aria-hidden="true"></i>
+                      <div>
+                        <p class="uppercase">renovation</p>
+                        <p>
+                          Lorem ipsum dolor sit piscing sed diam nonmy end .
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="list">
+                  <!-- List three -->
+                  <div class="list-item">
+                    <div class="list-details">
+                      <i class="fa fa-building" aria-hidden="true"></i>
+                      <div>
+                        <p class="uppercase">interior</p>
+                        <p>
+                          Lorem ipsum dolor sit piscing sed diam nonmy end .
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- List four -->
+                  <div class="list-item">
+                    <div class="list-details">
+                      <i class="fa fa-gavel" aria-hidden="true"></i>
+                      <div>
+                        <p class="uppercase">digging</p>
+                        <p>
+                          Lorem ipsum dolor sit piscing sed diam nonmy end .
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="btn btn-grey">Read More</button>
+            </div>
+
+            <img
+              src="./images/about (1).jpg"
+              alt="construction workers"
+              class="about-img"
+            />
+          </div>
+        </div>
+      </section>
+      <!-- End About section -->
+      <!-- Start career section -->
+      <section class="career-section">
+        <div class="container-fluid career-flex">
+          <div class="career-info">
+            <h2 class="capitalize">Ready to work with our company?</h2>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+              in condimentum risus. Fusce rutrum, leo in elementum sodales,
+              magna eros vehicula ante, eget semper mi lectus nec ipsum.
+            </p>
+          </div>
+          <button class="btn btn-white">Get a Quote</button>
+        </div>
+      </section>
+      <!-- End career section -->
+      <!-- Start service section -->
+
+      <section class="service center" id="service">
+        <div class="container-fluid">
+          <div class="page-heading">
+            <h1 class="uppercase">our <span>service</span></h1>
+            <img src="./images/underline.png" alt="underline" />
+          </div>
+          <div class="service-lists">
+            <div class="card">
+              <div class="card-head">
+                <span><i class="fa fa-home" aria-hidden="true"></i></span>
+                <h3>Construction</h3>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                in leo vitae nisi rutrum fringilla. Nunc consequat massa sed
+                porta convallis. Sed quis sollicitudin risus. Morbi vitae semper
+                dolor.
+              </p>
+            </div>
+            <div class="card">
+              <div class="card-head">
+                <span><i class="fa fa-university" aria-hidden="true"></i></span>
+                <h3>Home and Renovations</h3>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                in leo vitae nisi rutrum fringilla. Nunc consequat massa sed
+                porta convallis. Sed quis sollicitudin risus. Morbi vitae semper
+                dolor.
+              </p>
+            </div>
+            <div class="card">
+              <div class="card-head">
+                <span><i class="fa fa-building-o" aria-hidden="true"></i></span>
+                <h3>Building</h3>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                in leo vitae nisi rutrum fringilla. Nunc consequat massa sed
+                porta convallis. Sed quis sollicitudin risus. Morbi vitae semper
+                dolor.
+              </p>
+            </div>
+            <div class="card">
+              <div class="card-head">
+                <span><i class="fa fa-hospital-o" aria-hidden="true"></i></span>
+                <h3>Architecture</h3>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                in leo vitae nisi rutrum fringilla. Nunc consequat massa sed
+                porta convallis. Sed quis sollicitudin risus. Morbi vitae semper
+                dolor.
+              </p>
+            </div>
+            <div class="card">
+              <div class="card-head">
+                <span><i class="fa fa-wrench" aria-hidden="true"></i></span>
+                <h3>Interior</h3>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                in leo vitae nisi rutrum fringilla. Nunc consequat massa sed
+                porta convallis. Sed quis sollicitudin risus. Morbi vitae semper
+                dolor.
+              </p>
+            </div>
+            <div class="card">
+              <div class="card-head">
+                <span><i class="fa fa-home" aria-hidden="true"></i></span>
+                <h3>Floors & Roofs Repairing</h3>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                in leo vitae nisi rutrum fringilla. Nunc consequat massa sed
+                porta convallis. Sed quis sollicitudin risus. Morbi vitae semper
+                dolor.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End service section -->
+      <!-- Start counter section -->
+      <section class="counter">
+        <div class="container-fluid">
+          <div class="counter-box">
+            <!-- list one -->
+            <div class="counter-list">
+              <i class="fa fa-users" aria-hidden="true"></i>
+              <div class="c-info">
+                <p>399</p>
+                <p class="capitalize">happy client</p>
+              </div>
+            </div>
+            <!-- list two -->
+            <div class="counter-list">
+              <i class="fa fa-code" aria-hidden="true"></i>
+              <div class="c-info">
+                <p>8312</p>
+                <p class="capitalize">Code line</p>
+              </div>
+            </div>
+            <!-- list three -->
+            <div class="counter-list">
+              <i class="fa fa-laptop" aria-hidden="true"></i>
+              <div class="c-info">
+                <p>1632</p>
+                <p class="capitalize">Project Finished</p>
+              </div>
+            </div>
+            <!-- list four -->
+            <div class="counter-list">
+              <i class="fa fa-trophy" aria-hidden="true"></i>
+              <div class="c-info">
+                <p>206</p>
+                <p class="capitalize">Awards</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End counter section -->
+
+      <!-- Start project section -->
+      <section class="project center" id="portfolio">
+        <div class="container-fluid">
+          <div class="page-heading">
+            <h1 class="uppercase">latest <span>project</span></h1>
+            <img src="./images/underline.png" alt="underline" />
+          </div>
+          <div class="image-box">
+            <div class="box">
+              <img src="./images/portfolio.jpg" alt="project" />
+              <div class="layer">
+                <p>Interior Design</p>
+                <p>Builder, Repairman</p>
+              </div>
+            </div>
+            <div class="box">
+              <img src="./images/portfolio2.jpg" alt="project" />
+              <div class="layer">
+                <p>Home</p>
+                <p>Builder, Repairman</p>
+              </div>
+            </div>
+            <div class="box">
+              <img src="./images/portfolio.jpg" alt="project" />
+              <div class="layer">
+                <p>Green House</p>
+                <p>Builder, Repairman</p>
+              </div>
+            </div>
+            <div class="box">
+              <img src="./images/portfolio2.jpg" alt="project" />
+              <div class="layer">
+                <p>Home</p>
+                <p>Builder, Repairman</p>
+              </div>
+            </div>
+            <div class="box">
+              <img src="./images/portfolio.jpg" alt="project" />
+              <div class="layer">
+                <p>Interior Design</p>
+                <p>Builder, Repairman</p>
+              </div>
+            </div>
+            <div class="box">
+              <img src="./images/portfolio2.jpg" alt="project" />
+              <div class="layer">
+                <p>Home</p>
+                <p>Builder, Repairman</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End project section -->
+      <!-- Start testimonial section -->
+      <section class="testimonial center" id="testimonials">
+        <div class="container-fluid">
+          <div class="page-heading">
+            <h1 class="uppercase">Testimonials 
+            <img src="./images/underline-white.png" alt="underline" />
+          </div>
+          <div class="comment-container">
+            <div class="comment-box">
+            <div  class="comment">
+              <i class="fa-solid fa-quote-left icon"></i>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos magnam soluta, nobis quidem quaerat rem saepe ea unde cupiditate exercitationem quaerat rem saepe ea unde cupiditate exercitationem!</p>
+            </div>
+            <div class="client">
+              <img src="./images/client2.jpg" alt="client image">
+              <div class="user-info">
+                <p class="uppercase fw-700">John doe</p>
+                <p>Lorem ipsum.</p>
+              </div>
+            </div>
+          </div>
+            <div class="comment-box d-none d-block">
+            <div  class="comment">
+              <i class="fa-solid fa-quote-left icon"></i>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos magnam soluta, nobis quidem quaerat rem saepe ea unde cupiditate exercitationem quaerat rem saepe ea unde cupiditate exercitationem!</p>
+            </div>
+            <div class="client">
+              <img src="./images/client2.jpg" alt="client image">
+              <div class="user-info">
+                <p class="uppercase fw-700">John doe</p>
+                <p>Lorem ipsum.</p>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </section>
+      <!-- End testimonial section -->
+       <!-- Start experts section -->
+        <section class="expert center" id="team">
+          <div class="container-fluid">
+            <div class="page-heading">
+            <h1 class="uppercase">our <span>experts</span> 
+            <img src="./images/underline.png" alt="underline" />
+          </div>
+          </div>
+          <p class="text">Aenean commodo ligula eget dolor. Aenean massa. Lorem ipsum dolor sit amet, consec tetuer adipis elit, aliquam eget nibh etlibura.</p>
+
+          <div class="expert-box">
+            <div class="user-card">
+              <div class="user-card-head">
+                <img src="./images/team01.png" alt="Team member">
+            <div class="socials">
+                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                  <a href="#" style="font-weight: 600;">g+</a>
+              </div>
+              </div>
+              <div class="user-card-body">
+                <p class="uppercase">Willimes Dono</p>
+                <p>Supervisor</p>
+              </div>
+            </div>
+            <div class="user-card">
+              <div class="user-card-head">
+                <img src="./images/team02.png" alt="Team member">
+            <div class="socials">
+                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                  <a href="#" style="font-weight: 600;">g+</a>
+              </div>
+              </div>
+              <div class="user-card-body">
+                <p class="uppercase">James Rocky</p>
+                <p>Supervisor</p>
+              </div>
+            </div>
+            <div class="user-card">
+              <div class="user-card-head">
+                <img src="./images/team03.png" alt="Team member">
+            <div class="socials">
+                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                  <a href="#" style="font-weight: 600;">g+</a>
+              </div>
+              </div>
+              <div class="user-card-body">
+                <p class="uppercase">John Smith</p>
+                <p>Supervisor</p>
+              </div>
+            </div>
+            <div class="user-card">
+              <div class="user-card-head">
+                <img src="./images/team04.png" alt="Team member">
+            <div class="socials">
+                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                  <a href="#" style="font-weight: 600;">g+</a>
+              </div>
+              </div>
+              <div class="user-card-body">
+                <p class="uppercase">David Nicholson</p>
+                <p>Supervisor</p>
+              </div>
+            </div>
+            
+          </div>
+        </section>
+       <!-- End experts section -->
+        <!-- Start Contact section -->
+         <section class="contact" id="">
+          <div class="container-fluid">
+             <h2 class="uppercase">Send us a message</h2>
+             <p class="contact-txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias dicta ratione expedita Duis gravida arcu lectus, porttitor placerat elit pharetra a. Quisque id tellus risus. Nam eget gravida tortor.</p>
+             <form action="">
+              <input type="text" placeholder="Name" class="input" >
+              <input type="email" placeholder="Email" class="input">
+              <input type="tel" placeholder="Phone" class="input">
+              <input type="text" placeholder="Address" class="input">
+              <textarea name="message" id="message" placeholder="Message" rows="10" cols="10" class="input full"></textarea>
+              <div class="btn-box">
+                <button type="submit" class="btn btn-white capitalize ">submit now</button>
+              </div>
+             </form>
+          </div>
+         </section>
+        <!-- End Contact section -->
+         <!--Start Footer -->
+         <footer>
+         <div class="container-fluid">
+          <div class="main-footer">
+           <p>&copy;Copyright 2024.</p>
+          <div class="f-socials">
+            <ul>
+              <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+         </div>
+          <small>Code by Oyediran Emmanuel</small>
+          <small>Design by Malik Hassan (Themeforest)</small>
+         </div>
+         </footer>
+         <!--End Footer -->
+         <!-- Return to top button -->
+          
+            <a href="#hero" class="btn btn-return"><i class="fa-solid fa-arrow-up"></i></a>
+         
+    </main>
+  </body>
+</html>
